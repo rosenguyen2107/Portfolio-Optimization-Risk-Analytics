@@ -2,6 +2,10 @@
 
 In this project, I originally built a portfolio optimization system to compare allocation methods. But before trusting the results, I audited the backtest and found that several implementation choices were materially affecting performance. I corrected the engine and quantified those effects through ablation analysis. After that, I compared six portfolio methods under the same walk-forward framework, focusing not on a single winner but on the trade-offs among return, downside risk, turnover, diversification, and transaction costs. Finally, I used the validated framework for illustrative risk-profile allocations and scenario analysis, while explicitly recognizing selection bias and the limits of historical evidence.
 
+
+> **Report:** [https://github.com/rosenguyen2107/E-commerce-User-Churn-Retention-Modeling/blob/main/customer_retention_analysis_report.pdf](https://github.com/rosenguyen2107/Portfolio-Optimization-Risk-Analytics/blob/main/Report-Portfolio%20Optimization%20%26%20Risk%20Analytics.pdf)
+> 
+> **Notebook:** https://github.com/rosenguyen2107/Portfolio-Optimization-Risk-Analytics/blob/main/Portfolio%20Optimization%20%26%20Risk%20Analytics.ipynb
 ---
 
 ## What the system does
