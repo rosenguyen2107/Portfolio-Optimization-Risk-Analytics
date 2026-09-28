@@ -1,0 +1,87 @@
+{
+  "files": {
+    "prices_adjclose.csv": {
+      "sha": "8ed57bec6f01fa67",
+      "rows": 2906,
+      "cols": [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "JPM",
+        "GS",
+        "V",
+        "MA",
+        "LLY",
+        "UNH",
+        "JNJ",
+        "COST",
+        "WMT",
+        "KO",
+        "PG",
+        "XOM",
+        "CVX",
+        "CAT",
+        "NEE",
+        "PLD",
+        "IEF",
+        "GLD",
+        "SPY"
+      ]
+    },
+    "rf_series.csv": {
+      "sha": "ce11aa2587b39525",
+      "rows": 2891,
+      "cols": [
+        "DGS3MO"
+      ]
+    },
+    "ff_factors.csv": {
+      "sha": "5f0eaf2b7a91ad34",
+      "rows": 2868,
+      "cols": [
+        "Mkt-RF",
+        "SMB",
+        "HML",
+        "RMW",
+        "CMA",
+        "RF"
+      ]
+    }
+  },
+  "config": {
+    "start": "2015-01-01",
+    "end": "2026-07-25",
+    "tickers": [
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "AMZN",
+      "GOOGL",
+      "META",
+      "JPM",
+      "GS",
+      "V",
+      "MA",
+      "LLY",
+      "UNH",
+      "JNJ",
+      "COST",
+      "WMT",
+      "KO",
+      "PG",
+      "XOM",
+      "CVX",
+      "CAT",
+      "NEE",
+      "PLD",
+      "IEF",
+      "GLD"
+    ],
+    "benchmark": "SPY"
+  },
+  "downloaded_at": "2026-08-01T18:19:46",
+  "vintage": "2026-07-24"
+}
