@@ -2,11 +2,8 @@
 
 In this project, I originally built a portfolio optimization system to compare allocation methods. But before trusting the results, I audited the backtest and found that several implementation choices were materially affecting performance. I corrected the engine and quantified those effects through ablation analysis. After that, I compared six portfolio methods under the same walk-forward framework, focusing not on a single winner but on the trade-offs among return, downside risk, turnover, diversification, and transaction costs. Finally, I used the validated framework for illustrative risk-profile allocations and scenario analysis, while explicitly recognizing selection bias and the limits of historical evidence.
 
-
-> **Report:** https://github.com/rosenguyen2107/Portfolio-Optimization-Risk-Analytics/blob/main/Report-Portfolio%20Optimization%20%26%20Risk%20Analytics.pdf
-> 
-> **Notebook:** https://github.com/rosenguyen2107/Portfolio-Optimization-Risk-Analytics/blob/main/Portfolio%20Optimization%20%26%20Risk%20Analytics.ipynb
----
+- [Report](Report-Portfolio%20Optimization%20%26%20Risk%20Analytics.pdf)
+- [Notebook](Portfolio%20Optimization%20%26%20Risk%20Analytics.ipynb)
 
 ## What the system does
 
@@ -26,8 +23,6 @@ Methods compared: Maximum Sharpe (historical means), Minimum Variance, Risk Pari
 Hierarchical Risk Parity, walk-forward Black-Litterman, and Equal Weight - against SPY,
 60/40 and a diversified 60/30/10 benchmark run through the same engine, window and cost
 assumptions.
-
----
 
 ## Results
 
@@ -68,8 +63,6 @@ grew the most, because the denominator is frozen at the start while costs are pa
 growing portfolio. This repository reports gross-vs-net CAGR and terminal-wealth drag as the
 primary measures.
 
----
-
 ## What the audit found
 
 Five defects, corrected and then measured. The ablation runs one strategy through five nested
@@ -95,8 +88,6 @@ evidence:
 The original implementation did not inflate results but distorted them, and the direction
 of distortion differed by metric.
 
----
-
 ## Conclusions
 
 Four statements this analysis supports, at the strength the evidence allows.
@@ -119,8 +110,6 @@ value and the assumed rate together.
 changed net CAGR by 0.41 pp, which is larger than the gap between several competing strategies
 in the results table. The direction of the error was not predictable in advance, which is the
 argument for measuring rather than assuming.
-
----
 
 ## What this work does not support
 
