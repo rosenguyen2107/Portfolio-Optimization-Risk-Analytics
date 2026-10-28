@@ -2,8 +2,8 @@
 
 In this project, I originally built a portfolio optimization system to compare allocation methods. But before trusting the results, I audited the backtest and found that several implementation choices were materially affecting performance. I corrected the engine and quantified those effects through ablation analysis. After that, I compared six portfolio methods under the same walk-forward framework, focusing not on a single winner but on the trade-offs among return, downside risk, turnover, diversification, and transaction costs. Finally, I used the validated framework for illustrative risk-profile allocations and scenario analysis, while explicitly recognizing selection bias and the limits of historical evidence.
 
-- [Report](Report-Portfolio%20Optimization%20%26%20Risk%20Analytics.pdf)
-- [Notebook](Portfolio%20Optimization%20%26%20Risk%20Analytics.ipynb)
+- [Full Report](Report-Portfolio%20Optimization%20%26%20Risk%20Analytics.pdf)
+- [Analysis Notebook](Portfolio%20Optimization%20%26%20Risk%20Analytics.ipynb)
 
 ## What the system does
 
